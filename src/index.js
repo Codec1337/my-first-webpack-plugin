@@ -1,15 +1,17 @@
-class myWebpackPlugin {
+const chalk = require('chalk')
+
+class bugFreeWebpackPlugin {
     constructor() {}
     apply(compiler) {
         compiler.hooks.done.tapAsync("myFirstWebpackPlugin", (arg, callback) => {
             // 输出无bug
-            console.log('%c谢天谢地，永无bug', 'color: red;')
-            
+            chalk.green('谢天谢地，永无bug')
             callback()
         })
     }
 }
 
+
 module.exports = {
-    myWebpackPlugin
+    bugFreeWebpackPlugin
 }
