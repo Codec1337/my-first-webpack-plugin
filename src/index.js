@@ -5,7 +5,7 @@ class bugFreeWebpackPlugin {
     apply(compiler) {
         compiler.hooks.done.tapAsync("myFirstWebpackPlugin", (arg, callback) => {
             // 输出无bug
-            chalk.green('谢天谢地，永无bug')
+            console.log(chalk.green('谢天谢地，永无bug'))
             callback()
         })
     }
