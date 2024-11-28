@@ -1,6 +1,6 @@
 {
   "name": "bug-free-webpack-plugins",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "bug free tips",
   "main": "src/index.js",
   "scripts": {
