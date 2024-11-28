@@ -1,0 +1,15 @@
+# 忽略源码目录
+src/
+
+
+# 忽略构建工具配置文件
+*.config.js
+*.json
+
+# 忽略测试文件
+test/
+__tests__/
+*.spec.js
+
+# 忽略文档
+README.md

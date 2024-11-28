@@ -1,0 +1,25 @@
+{
+  "name": "bug-free-webpack-plugins",
+  "version": "1.0.8",
+  "description": "bug free tips",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist && terser dist/*.js --compress --mangle --output dist/",
+    "patch-version": "npm version patch",
+    "publish": "npm publish"
+  },
+  "keywords": [
+    "webpack",
+    "webpack plugin",
+    "npm",
+    "bug free"
+  ],
+  "author": "Codec",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "terser": "^5.36.0"
+  }
+}
