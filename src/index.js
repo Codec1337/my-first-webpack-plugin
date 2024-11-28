@@ -1,4 +1,4 @@
-const chalk = require('chalk')
+const chalk = require('chalk');
 
 class bugFreeWebpackPlugin {
     constructor() {}
@@ -10,7 +10,6 @@ class bugFreeWebpackPlugin {
         })
     }
 }
-
 
 module.exports = {
     bugFreeWebpackPlugin
